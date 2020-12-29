@@ -18,10 +18,12 @@ end
 
 def multiplication(num1, num2)
   product = num1 * num2
-
+    puts product
+  product
 end
 
 def modulo(num1, num2)
+  remainder = 
 
 end
 
