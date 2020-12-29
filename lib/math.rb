@@ -12,10 +12,12 @@ end
 
 def division(num1, num2)
   quotient = num1 / num2
-
+    puts quotient
+  quotient
 end
 
 def multiplication(num1, num2)
+  
 
 end
 
