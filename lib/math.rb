@@ -15,8 +15,8 @@ end
 subtraction(8, 2)
 
 def division(num1, num2)
-  quotient = (num1 / num2)
-    puts "#{num1}/#{num2} = #{quotient}"
+  quotient = num1 / num2
+    puts "#{num1} / #{num2} = #{quotient}"
   quotient
 end
 
@@ -24,18 +24,24 @@ division(9, 3)
 
 def multiplication(num1, num2)
   product = num1 * num2
-    puts product
+    puts "#{num1} * #{num2} = #{product}"
   product
 end
 
+multiplication(5, 5)
+
 def modulo(num1, num2)
   remainder = num1 % num2
-    puts remainder
+    puts "remainder = #{remainder}"
   remainder
 end
 
+modulo(8, 2)
+
 def square_root(num)
   root = Math.sqrt(num)
-    puts root
+    puts "Square Root = #{root}"
   root
 end
+
+square_root(9)
