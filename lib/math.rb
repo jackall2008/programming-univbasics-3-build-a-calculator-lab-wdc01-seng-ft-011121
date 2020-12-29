@@ -8,7 +8,7 @@ addition(5,4)
 
 def subtraction(num1, num2)
   difference = num1 + num2
-    puts difference
+    puts "#{num1} - #{num2} = #{difference}"
   difference 
 end
 
