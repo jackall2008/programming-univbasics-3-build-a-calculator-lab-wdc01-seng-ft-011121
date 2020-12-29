@@ -1,9 +1,9 @@
 def addition(num1, num2)
-  sum = 5 + 9
+  sum = num1 + num2
   sum
 end
 
-addition
+addition(5,9)
 
 def subtraction(num1, num2)
   difference = num1 + num2
