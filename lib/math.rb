@@ -3,6 +3,7 @@ def addition(num1, num2)
   sum(5,4)
 end
 
+addition
 
 def subtraction(num1, num2)
   difference = num1 + num2
