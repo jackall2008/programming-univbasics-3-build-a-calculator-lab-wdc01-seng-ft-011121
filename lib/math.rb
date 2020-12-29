@@ -32,7 +32,7 @@ multiplication(5, 5)
 
 def modulo(num1, num2)
   remainder = num1 % num2
-    puts "remainder = #{remainder}"
+    puts "Remainder = #{remainder}"
   remainder
 end
 
