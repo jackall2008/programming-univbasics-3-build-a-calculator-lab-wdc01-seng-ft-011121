@@ -1,6 +1,6 @@
 def addition(num1, num2)
-  sum = num1 + num2
-  sum(5,4)
+  sum = 5 + 9
+  sum
 end
 
 addition
