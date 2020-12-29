@@ -15,12 +15,12 @@ end
 subtraction(8, 2)
 
 def division(num1, num2)
-  quotient = num1 / num2
+  quotient = (num1 / num2)
     puts "#{num1}/#{num2} = #{quotient}"
   quotient
 end
 
-quotient(9, 3)
+division(9, 3)
 
 def multiplication(num1, num2)
   product = num1 * num2
