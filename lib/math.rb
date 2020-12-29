@@ -12,6 +12,8 @@ def subtraction(num1, num2)
   difference 
 end
 
+difference(8,2)
+
 def division(num1, num2)
   quotient = num1 / num2
     puts quotient
