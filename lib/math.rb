@@ -4,7 +4,7 @@ def addition(num1, num2)
   sum
 end
 
-addition(5,4)
+addition(5, 4)
 
 def subtraction(num1, num2)
   difference = num1 + num2
@@ -12,13 +12,15 @@ def subtraction(num1, num2)
   difference 
 end
 
-subtraction(8,2)
+subtraction(8, 2)
 
 def division(num1, num2)
-  quotient = num1 / num2
+  quotient = "#{num1}/#{num2} = #{quotient}"
     puts quotient
   quotient
 end
+
+quotient(9, 3)
 
 def multiplication(num1, num2)
   product = num1 * num2
