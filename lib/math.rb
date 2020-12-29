@@ -15,8 +15,8 @@ end
 subtraction(8, 2)
 
 def division(num1, num2)
-  quotient = "#{num1}/#{num2} = #{quotient}"
-    puts quotient
+  quotient = num1 / num2
+    puts "#{num1}/#{num2} = #{quotient}"
   quotient
 end
 
